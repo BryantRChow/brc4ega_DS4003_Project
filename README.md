@@ -1,2 +1,5 @@
 # brc4ega_DS4003_Project
-Term project creating a web application using a Washington DC crime history dataset. Bryant Chow, DS4003
+Term project creating a web application using a Washington DC crime history dataset found here: https://www.kaggle.com/datasets/vinchinzu/dc-metro-crime-data?resource=download.
+
+Hosted on render here: 
+Bryant Chow, DS4003
