@@ -274,7 +274,7 @@ def update_figure(selected_years, selected_wards, selected_violence):
     grouped_df.columns = ['Year', 'Ward', 'Count']
     
     fig = px.line(grouped_df, x="Year", y="Count", color='Ward')
-    fig.update_layout(xaxis={'tickformat':'d'})
+    fig.update_layout(xaxis={'tickformat':'d'}, title="Yearly Count of Crimes Per Ward")
 
     return dcc.Graph(figure = fig)
 
